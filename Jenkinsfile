@@ -5,6 +5,7 @@ pipeline{
       steps{
           mvn clean package
           echo 'building the project'
+      }
     }
      stage("test"){
        steps{
